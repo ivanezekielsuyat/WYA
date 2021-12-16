@@ -1,0 +1,623 @@
+.schedule-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.schedule-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-color: rgba(127, 200, 255, 0.67);
+}
+.schedule-icon {
+  fill: #ffffff;
+  width: 211px;
+  height: 100px;
+}
+.schedule-icon02 {
+  top: 15px;
+  fill: #ffffff;
+  right: 50px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+.schedule-link {
+  top: 35px;
+  color: #f50967;
+  right: 170px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-link1 {
+  top: 35px;
+  color: #f50967;
+  right: 290px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.schedule-text {
+  top: 19px;
+  left: 57px;
+  color: #f50967;
+  margin: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.schedule-text01 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.schedule-text02 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 400;
+}
+.schedule-text03 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.schedule-text04 {
+  top: 145px;
+  left: 220px;
+  color: #f50967;
+  right: 20px;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-icon04 {
+  top: 160px;
+  fill: #f50967;
+  right: 150px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.schedule-icon06 {
+  top: 160px;
+  fill: #f50967;
+  left: 350px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.schedule-container2 {
+  top: 200px;
+  flex: 0 0 auto;
+  left: 250px;
+  right: 50px;
+  width: 1020px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.schedule-image {
+  width: 1020px;
+  height: 500px;
+  object-fit: cover;
+}
+.schedule-container3 {
+  width: 200px;
+  height: 916px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #003964;
+}
+.schedule-checkbox {
+  top: 160px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox01 {
+  top: 400px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox02 {
+  top: 480px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox03 {
+  top: 540px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox04 {
+  top: 360px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox05 {
+  top: 320px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox06 {
+  top: 280px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox07 {
+  top: 240px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-checkbox08 {
+  top: 200px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-icon08 {
+  top: 446px;
+  fill: #f50967;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  position: absolute;
+}
+.schedule-textinput {
+  top: 100px;
+  left: 20px;
+  width: 160px;
+  margin: auto;
+  position: absolute;
+}
+.schedule-text05 {
+  top: 70px;
+  left: 20px;
+  color: #f50967;
+  position: absolute;
+  font-family: Overpass;
+}
+.schedule-text06 {
+  top: 158px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 900;
+}
+.schedule-text07 {
+  font-family: Overpass;
+}
+.schedule-text08 {
+  top: 198px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text09 {
+  font-family: Overpass;
+}
+.schedule-text10 {
+  top: 478px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text11 {
+  top: 538px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text12 {
+  top: 238px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text13 {
+  font-family: Overpass;
+}
+.schedule-text14 {
+  top: 278px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text15 {
+  font-family: Overpass;
+}
+.schedule-text16 {
+  top: 318px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text17 {
+  top: 358px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text18 {
+  top: 398px;
+  left: 45px;
+  color: #f50967;
+  position: absolute;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-icon10 {
+  fill: #f50967;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.schedule-checkbox09 {
+  top: 880px;
+  left: 350px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.schedule-text19 {
+  top: 800px;
+  left: 1145px;
+  color: #f50967;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 900;
+}
+.schedule-text20 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 900;
+}
+.schedule-text25 {
+  top: 775px;
+  left: 1210px;
+  color: #f50967;
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  font-family: Overpass;
+  font-weight: 900;
+}
+.schedule-text26 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 900;
+}
+.schedule-text37 {
+  top: 760px;
+  left: 1199px;
+  height: 250px;
+  position: absolute;
+  border-color: #f50967;
+  border-width: 3px;
+}
+.schedule-textinput01 {
+  top: 800px;
+  left: 350px;
+  position: absolute;
+}
+.schedule-textinput02 {
+  top: 950px;
+  left: 350px;
+  width: 300px;
+  position: absolute;
+}
+.schedule-textinput03 {
+  top: 800px;
+  left: 1280px;
+  position: absolute;
+}
+.schedule-textinput04 {
+  top: 800px;
+  left: 600px;
+  width: 150px;
+  position: absolute;
+}
+.schedule-textinput05 {
+  top: 870px;
+  left: 990px;
+  width: 150px;
+  position: absolute;
+}
+.schedule-textinput06 {
+  top: 800px;
+  left: 775px;
+  width: 125px;
+  position: absolute;
+}
+.schedule-textinput07 {
+  top: 870px;
+  left: 520px;
+  width: 90px;
+  position: absolute;
+}
+.schedule-textinput08 {
+  top: 870px;
+  left: 775px;
+  width: 160px;
+  position: absolute;
+}
+.schedule-textinput09 {
+  top: 800px;
+  left: 925px;
+  width: 125px;
+  position: absolute;
+}
+.schedule-button {
+  top: 710px;
+  color: #f50967;
+  right: 150px;
+  display: flex;
+  position: absolute;
+  font-family: Overpass;
+}
+.schedule-button1 {
+  top: 710px;
+  color: #f50967;
+  right: 242px;
+  display: flex;
+  position: absolute;
+  font-family: Overpass;
+}
+.schedule-button2 {
+  top: 710px;
+  color: #f50967;
+  right: 390px;
+  display: flex;
+  position: absolute;
+  font-family: Overpass;
+}
+.schedule-button3 {
+  top: 865px;
+  left: 625px;
+  color: #f50967;
+  display: flex;
+  position: absolute;
+  font-family: Overpass;
+}
+.schedule-text41 {
+  top: 720px;
+  left: 350px;
+  color: #f50967;
+  right: 0px;
+  width: 90px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text42 {
+  top: 770px;
+  left: 350px;
+  color: #f50967;
+  width: 200px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text43 {
+  top: 925px;
+  left: 350px;
+  color: #f50967;
+  width: 200px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text44 {
+  top: 875px;
+  left: 380px;
+  color: #f50967;
+  width: 140px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text45 {
+  top: 875px;
+  left: 740px;
+  color: #f50967;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text46 {
+  top: 875px;
+  left: 940px;
+  color: #f50967;
+  bottom: 122px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text47 {
+  top: 770px;
+  left: 1280px;
+  color: #f50967;
+  width: 250px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text48 {
+  top: 770px;
+  left: 600px;
+  color: #f50967;
+  width: 150px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text49 {
+  top: 845px;
+  left: 990px;
+  color: #f50967;
+  width: 150px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text50 {
+  top: 770px;
+  left: 775px;
+  color: #f50967;
+  width: 125px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text51 {
+  top: 770px;
+  left: 925px;
+  color: #f50967;
+  width: 125px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text52 {
+  top: 720px;
+  left: 430px;
+  color: #f50967;
+  width: 400px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text53 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text54 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.schedule-text55 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text56 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text57 {
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.schedule-text58 {
+  top: 110px;
+  left: 70px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}

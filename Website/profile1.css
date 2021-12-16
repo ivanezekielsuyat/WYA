@@ -1,0 +1,377 @@
+.profile1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.profile1-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-color: rgba(127, 200, 255, 0.67);
+}
+.profile1-icon {
+  fill: #ffffff;
+  width: 211px;
+  height: 100px;
+}
+.profile1-icon02 {
+  top: 12.5px;
+  fill: #f50967;
+  right: 47.5px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.profile1-icon04 {
+  top: 15px;
+  fill: #ffffff;
+  right: 50px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+.profile1-link {
+  top: 35px;
+  color: #f50967;
+  right: 170px;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.profile1-link1 {
+  top: 35px;
+  color: #f50967;
+  right: 290px;
+  position: absolute;
+}
+.profile1-text {
+  top: 19px;
+  left: 57px;
+  color: #f50967;
+  margin: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.profile1-text01 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.profile1-text02 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 400;
+}
+.profile1-text03 {
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.profile1-container2 {
+  top: 150px;
+  flex: 0 0 auto;
+  left: 50px;
+  width: 900px;
+  bottom: 50px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: #f50967;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profile1-text04 {
+  top: 90px;
+  left: 375px;
+  color: #7fc8ff;
+  position: absolute;
+}
+.profile1-icon06 {
+  top: 62.5px;
+  fill: #f50967;
+  left: 47.5px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.profile1-icon08 {
+  top: 65px;
+  fill: #7fc8ff;
+  left: 50px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+.profile1-text06 {
+  top: 65px;
+  left: 150px;
+  color: #f50967;
+  position: absolute;
+  font-size: 48px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text07 {
+  top: 250px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text09 {
+  top: 350px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text10 {
+  top: 450px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text11 {
+  top: 115px;
+  left: 150px;
+  color: #7fc8ff;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-textinput {
+  top: 280px;
+  left: 50px;
+  width: 500px;
+  position: absolute;
+}
+.profile1-textinput01 {
+  top: 380px;
+  left: 50px;
+  width: 500px;
+  position: absolute;
+}
+.profile1-textinput02 {
+  top: 480px;
+  left: 50px;
+  width: 500px;
+  position: absolute;
+}
+.profile1-button {
+  top: 85px;
+  color: #f50967;
+  right: 50px;
+  position: absolute;
+}
+.profile1-button1 {
+  top: 277px;
+  color: #f50967;
+  right: 50px;
+  position: absolute;
+}
+.profile1-button2 {
+  top: 477px;
+  color: #f50967;
+  right: 50px;
+  position: absolute;
+}
+.profile1-container3 {
+  top: 180px;
+  flex: 0 0 auto;
+  right: 50px;
+  width: 490px;
+  bottom: 80px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: #f50967;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profile1-button3 {
+  left: 168px;
+  color: #f50967;
+  width: 154px;
+  bottom: 20px;
+  position: absolute;
+  text-align: center;
+}
+.profile1-textinput03 {
+  top: 80px;
+  left: 50px;
+  width: 390px;
+  position: absolute;
+}
+.profile1-textinput04 {
+  top: 180px;
+  left: 50px;
+  width: 195px;
+  position: absolute;
+}
+.profile1-textinput05 {
+  top: 480px;
+  left: 295px;
+  width: 145px;
+  position: absolute;
+}
+.profile1-textinput06 {
+  top: 480px;
+  left: 50px;
+  width: 145px;
+  position: absolute;
+}
+.profile1-textinput07 {
+  top: 280px;
+  left: 50px;
+  width: 390px;
+  position: absolute;
+}
+.profile1-textinput08 {
+  top: 380px;
+  left: 50px;
+  width: 390px;
+  position: absolute;
+}
+.profile1-textinput09 {
+  top: 180px;
+  left: 295px;
+  width: 70px;
+  position: absolute;
+}
+.profile1-text13 {
+  top: 50px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text14 {
+  top: 150px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text15 {
+  top: 150px;
+  left: 295px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text16 {
+  top: 250px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text17 {
+  top: 350px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text18 {
+  top: 450px;
+  left: 50px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text19 {
+  top: 450px;
+  left: 295px;
+  color: #f50967;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
