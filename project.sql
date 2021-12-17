@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS PERSON;
 CREATE TABLE PERSON (
 	UCID			varchar(9) not null,
 	Fname			varchar(25),
-    Minit			varchar(1),
+    Minit			char(1),
     Lname			varchar(25),
 	Major			varchar(25),
     Minor			varchar(25),
