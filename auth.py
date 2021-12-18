@@ -8,7 +8,7 @@ auth = Blueprint('auth' __name__)
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        email = request.form.get('email')
+        username = request.form.get('username')
         password = request.form.get('password')
         user = User.query.filter_by(email=email).first()
         
@@ -31,28 +31,27 @@ def logout():
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def sign_up():
     if request.method == 'POST':
-        email = request.form.get('email')
+        username = request.form.get('username')
         password1 = request.form.get('password1')
         password2 = request.form.get('password2')
         
         firstName = request.form.get('firstName')
         mInit = request.form.get('mInit')
         lastName = request.form.get('lastName')
-        ucid = request.form.get('ucid')
         
         major = request.form.get('major')
         minor = request.form.get('minor')
         department = request.form.get('depertment')
         
-        user = User.query.filter_by(email=email).first()
+        user = User.query.filter_by(username=username).first()
         
         if user:
-            flash('Email already exists.', category='error')
+            flash('Username id already in use.', category='error')
         elif password1 != password2:
             flash('Passwords do not match.', category='error')
         else:
             #add user to database
-            new_user(email=email, password=password1, firstName=firstName, mInit=mInit, lName=lName, ucid=ucid, major=major, minor=minor, department=department)
+            new_user(username=username, password=password1, firstName=firstName, mInit=mInit, lName=lName, ucid=ucid, major=major, minor=minor, department=department)
             db.session.add(new_user)
             db.session.commit()
             
