@@ -1,0 +1,232 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(127, 200, 255, 0.67);
+}
+.sign-up-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sign-up-icon {
+  fill: #ffffff;
+  width: 211px;
+  height: 253px;
+  margin-top: 50px;
+}
+.sign-up-text {
+  top: 99px;
+  color: #f50967;
+  margin: auto;
+  position: absolute;
+  font-size: 100px;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 900;
+}
+.sign-up-button {
+  top: 753px;
+  color: #f5098a;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+}
+.sign-up-text01 {
+  color: #f50967;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.back-button {
+  top: 753px;
+  left: 300px;
+  color: #f5098a;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+}
+.back-button-text {
+  color: #f50967;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.sign-up-textinput {
+  top: 453px;
+  left: 300px;
+  width: 1090px;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-textinput1 {
+  top: 353px;
+  left: 300px;
+  width: 1090px;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-text03 {
+  top: 303px;
+  left: 300px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.sign-up-text05 {
+  top: 403px;
+  left: 300px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+}
+.sign-up-text06 {
+  top: 503px;
+  left: 302px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput2 {
+  top: 547px;
+  width: 1090px;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-text07 {
+  top: 503px;
+  left: 300px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput3 {
+  top: 553px;
+  left: 300px;
+  width: 300px;
+  position: absolute;
+}
+.sign-up-text08 {
+  top: 502px;
+  left: 625px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput4 {
+  top: 553px;
+  left: 625px;
+  width: 80px;
+  position: absolute;
+}
+.sign-up-text09 {
+  top: 503px;
+  left: 850px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput5 {
+  top: 553px;
+  left: 850px;
+  width: 540px;
+  position: absolute;
+}
+.sign-up-text10 {
+  top: 603px;
+  left: 300px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput6 {
+  top: 653px;
+  left: 300px;
+  width: 440px;
+  position: absolute;
+}
+.sign-up-text11 {
+  top: 603px;
+  left: 765px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.sign-up-textinput7 {
+  top: 653px;
+  left: 765px;
+  width: 300px;
+  position: absolute;
+}
+.sign-up-textinput8 {
+  top: 653px;
+  left: 1090px;
+  width: 300px;
+  position: absolute;
+}
+.sign-up-text12 {
+  top: 603px;
+  left: 1090px;
+  color: #f50967;
+  position: absolute;
+  font-size: 2em;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
