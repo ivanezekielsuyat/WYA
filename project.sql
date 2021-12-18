@@ -46,7 +46,8 @@ CREATE TABLE LEC_DAY (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
 	Weekday			varchar(9) NOT NULL,
-	Daytime			char(5),
+	Start_time		char(5),
+	End_time		char(5),
 	primary key (Course_id, Sec_no, Weekday),
 	foreign key (Course_id, Sec_no) references LECTURE_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
@@ -66,7 +67,8 @@ CREATE TABLE LAB_DAY (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
 	Weekday			varchar(9) NOT NULL,
-	Daytime			char(5),
+	Start_time		char(5),
+	End_time		char(5),
 	primary key (Course_id, Sec_no, Weekday),
 	foreign key (Course_id, Sec_no) references LAB_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
@@ -86,7 +88,8 @@ CREATE TABLE TUT_DAY (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
 	Weekday			varchar(9) NOT NULL,
-	Daytime			char(5),
+	Start_time		char(5),
+	End_time		char(5),
 	primary key (Course_id, Sec_no, Weekday),
 	foreign key (Course_id, Sec_no) references TUTORIAL_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
