@@ -68,7 +68,7 @@ CREATE TABLE LAB_DAY (
 	Weekday			varchar(9) NOT NULL,
 	Daytime			char(5),
 	primary key (Course_id, Sec_no, Weekday),
-	foreign key (Course_id, Sec_no) references LECTURE_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
+	foreign key (Course_id, Sec_no) references LAB_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
 
 DROP TABLE IF EXISTS TUTORIAL_SECTION;
@@ -88,7 +88,7 @@ CREATE TABLE TUT_DAY (
 	Weekday			varchar(9) NOT NULL,
 	Daytime			char(5),
 	primary key (Course_id, Sec_no, Weekday),
-	foreign key (Course_id, Sec_no) references LECTURE_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
+	foreign key (Course_id, Sec_no) references TUTORIAL_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
 
 DROP TABLE IF EXISTS FRIENDS;
@@ -112,26 +112,29 @@ CREATE TABLE SCHED_COURSE (
 DROP TABLE IF EXISTS SCHED_LEC;
 CREATE TABLE SCHED_LEC (
 	UID			integer NOT NULL,
+	Course_id		char(7) NOT NULL,
 	Lec_sec			integer NOT NULL,
-	primary key (UID, Lec_sec),
+	primary key (UID, Course_id, Lec_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
-	foreign key (Lec_sec) references LECTURE_SECTION(Sec_no) ON UPDATE CASCADE
+	foreign key (Course_id, Lec_sec) references LECTURE_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
 
 DROP TABLE IF EXISTS SCHED_LAB;
 CREATE TABLE SCHED_LAB (
 	UID			integer NOT NULL,
+	Course_id		char(7) NOT NULL,
 	Lab_sec			integer NOT NULL,
-	primary key (UID, Lab_sec),
+	primary key (UID, Course_id, Lab_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
-	foreign key (Lab_sec) references LAB_SECTION(Sec_no) ON UPDATE CASCADE
+	foreign key (Course_id, Lab_sec) references LAB_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
 
 DROP TABLE IF EXISTS SCHED_TUT;
 CREATE TABLE SCHED_TUT (
 	UID			integer NOT NULL,
+	Course_id		char(7) NOT NULL,
 	Tut_sec			integer NOT NULL,
-	primary key (UID, Tut_sec),
+	primary key (UID, Course_id, Tut_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
-	foreign key (tut_sec) references TUTORIAL_SECTION(Sec_no) ON UPDATE CASCADE
+	foreign key (Course_id, Tut_sec) references TUTORIAL_SECTION(Course_id, Sec_no) ON UPDATE CASCADE
 );
