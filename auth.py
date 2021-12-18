@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, flash, redirect, url_for
-from .models import User
+from .models import Person
 from . import db
 
 auth = Blueprint('auth' __name__)
@@ -51,7 +51,7 @@ def sign_up():
             flash('Passwords do not match.', category='error')
         else:
             #add user to database
-            new_user(username=username, password=password1, firstName=firstName, mInit=mInit, lName=lName, ucid=ucid, major=major, minor=minor, department=department)
+            new_user = Person(username=username, password=password1, firstName=firstName, mInit=mInit, lName=lName, ucid=ucid, major=major, minor=minor, department=department)
             db.session.add(new_user)
             db.session.commit()
             
