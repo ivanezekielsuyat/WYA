@@ -19,7 +19,7 @@ CREATE TABLE PERSON (
 
 DROP TABLE IF EXISTS SCHED;
 CREATE TABLE SCHED (
-	UID			varchar(9) NOT NULL,
+	UID			integer NOT NULL,
 	primary key (UID),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE
 );
@@ -35,7 +35,7 @@ DROP TABLE IF EXISTS LECTURE_SECTION;
 CREATE TABLE LECTURE_SECTION (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
-	Prof_uid		varchar(9),
+	Prof_uid		integer,
 	primary key (Course_id, Sec_no),
 	foreign key (Course_id) references COURSE(Course_id) ON UPDATE CASCADE,
 	foreign key (Prof_uid) references PERSON(UID) ON UPDATE CASCADE
@@ -55,7 +55,7 @@ DROP TABLE IF EXISTS LAB_SECTION;
 CREATE TABLE LAB_SECTION (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
-	Instructor_uid	varchar(9),
+	Instructor_uid		integer,
 	primary key (Course_id, Sec_no),
 	foreign key (Course_id) references COURSE(Course_id) ON UPDATE CASCADE,
 	foreign key (Instructor_uid) references PERSON(UID) ON UPDATE CASCADE
@@ -75,7 +75,7 @@ DROP TABLE IF EXISTS TUTORIAL_SECTION;
 CREATE TABLE TUTORIAL_SECTION (
 	Course_id		char(7) NOT NULL,
 	Sec_no			integer NOT NULL,
-	Instructor_uid	varchar(9),
+	Instructor_uid		integer,
 	primary key (Course_id, Sec_no),
 	foreign key (Course_id) references COURSE(Course_id) ON UPDATE CASCADE,
 	foreign key (Instructor_uid) references PERSON(UID) ON UPDATE CASCADE
@@ -93,8 +93,8 @@ CREATE TABLE TUT_DAY (
 
 DROP TABLE IF EXISTS FRIENDS;
 CREATE TABLE FRIENDS (
-	Friend_one		varchar(9) NOT NULL,
-	Friend_two		varchar(9) NOT NULL,
+	Friend_one		integer NOT NULL,
+	Friend_two		integer NOT NULL,
 	primary key (Friend_one, Friend_two),
 	foreign key (Friend_one) references PERSON(UID) ON UPDATE CASCADE,
 	foreign key (Friend_two) references PERSON(UID) ON UPDATE CASCADE
@@ -102,7 +102,7 @@ CREATE TABLE FRIENDS (
 
 DROP TABLE IF EXISTS SCHED_COURSE;
 CREATE TABLE SCHED_COURSE (
-	UID			varchar(9) NOT NULL,
+	UID			integer NOT NULL,
 	Course_id		char(7) NOT NULL,
 	primary key (UID, Course_id),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
@@ -111,7 +111,7 @@ CREATE TABLE SCHED_COURSE (
 
 DROP TABLE IF EXISTS SCHED_LEC;
 CREATE TABLE SCHED_LEC (
-	UID			varchar(9) NOT NULL,
+	UID			integer NOT NULL,
 	Lec_sec			integer NOT NULL,
 	primary key (UID, Lec_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
@@ -120,7 +120,7 @@ CREATE TABLE SCHED_LEC (
 
 DROP TABLE IF EXISTS SCHED_LAB;
 CREATE TABLE SCHED_LAB (
-	UID			varchar(9) NOT NULL,
+	UID			integer NOT NULL,
 	Lab_sec			integer NOT NULL,
 	primary key (UID, Lab_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
@@ -129,7 +129,7 @@ CREATE TABLE SCHED_LAB (
 
 DROP TABLE IF EXISTS SCHED_TUT;
 CREATE TABLE SCHED_TUT (
-	UID			varchar(9) NOT NULL,
+	UID			integer NOT NULL,
 	Tut_sec			integer NOT NULL,
 	primary key (UID, Tut_sec),
 	foreign key (UID) references PERSON(UID) ON UPDATE CASCADE,
